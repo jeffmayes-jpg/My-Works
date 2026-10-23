@@ -10,8 +10,9 @@
 header{background:#183b52;color:white;padding:3rem 1.25rem 2.5rem;text-align:center}header h1{font-size:clamp(2.2rem,6vw,3.4rem);margin:0 0 .4rem}header p{max-width:720px;margin:.5rem auto 0;color:#e1edf4}
 main{max-width:920px;margin:2rem auto;padding:0 1rem 3rem}.intro{margin:0 0 1.5rem;color:var(--muted)}
 .work{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1.2rem 1.4rem;margin:1rem 0;box-shadow:0 2px 8px #162c3a0a}
-.work h2{font-size:1.35rem;margin:0 0 .35rem}.work h2 a{color:var(--accent);text-decoration:none}.work h2 a:hover{text-decoration:underline}
+.work h2{font-size:1.35rem;margin:0 0 .35rem}.work h2 a,.version h3 a{color:var(--accent);text-decoration:none}.work h2 a:hover,.version h3 a:hover{text-decoration:underline}
 .work p{margin:.35rem 0}.status{display:inline-block;font:600 .78rem/1.4 Arial,sans-serif;color:#4c5661;background:#edf1f5;border-radius:20px;padding:.22rem .6rem;margin-left:.4rem;vertical-align:middle}
+.versions{margin:.9rem 0 0 1.5rem;padding-left:1rem;border-left:3px solid var(--line)}.version{margin:.9rem 0}.version h3{font-size:1.08rem;margin:0 0 .2rem}.version p{margin:.25rem 0}
 footer{text-align:center;color:var(--muted);padding:1.5rem;font-size:.95rem}a{overflow-wrap:anywhere}
 </style>
 </head>
@@ -24,35 +25,43 @@ footer{text-align:center;color:var(--muted);padding:1.5rem;font-size:.95rem}a{ov
 <p class="intro">All of my programs are designed as standalone Windows applications unless otherwise noted.</p>
 <section class="work">
 <h2><a href="https://jeffmayes-jpg.github.io/Personal-Deism/">Personal Deism</a></h2>
-<p>A philosophical worldview affirming an intentional, good Divine reality while leaving individuals free to pursue truth through reason, spiritual insight, and personal reflection. Persons possess intrinsic worth, sentient beings deserve fundamental freedoms, and moral growth is the purpose of personal existence.</p>
+<p>A philosophical worldview that affirms an intentional, good Divine reality while leaving individuals free to pursue truth through reason, spiritual insight, and personal reflection. It holds that persons possess intrinsic worth, that sentient beings deserve fundamental freedoms, and that the purpose of personal existence is moral growth.</p>
 </section>
 <section class="work">
-<h2><a href="https://github.com/jeffmayes-jpg/Babel/releases/tag/V1.0.0">Babel</a></h2>
-<p>A multilingual text-to-speech application supporting English, French, Spanish, and Khmer. It includes a language-learning curriculum organized by grade level and category, and allows users to add their own words and phrases.</p>
+<h2><a href="https://github.com/jeffmayes-jpg/Babel/releases/latest">Babel</a></h2>
+<p>A multilingual text-to-speech application. Babel supports English, French, Spanish, and Khmer. It includes a language-learning curriculum organized by grade level and category, and allows users to add their own words and phrases.</p>
+<div class="versions">
+<div class="version">
+<h3><a href="https://github.com/jeffmayes-jpg/Babel/releases/tag/v2.0.0">Babel 2.0.0</a></h3>
+<p>Added a new screen to allow translation to and from multiple languages (not simply the four) with an internet connection.</p>
+</div>
+</div>
 </section>
 <section class="work">
 <h2><a href="https://jeffmayes-jpg.github.io/BirthPersonaReport">BirthPersonaReport</a></h2>
-<p>A Windows desktop application built with VB.NET, Windows Forms, and .NET 10. It presents several traditional and interpretive systems in a tabbed, person-specific report.</p>
+<p>Birth Persona Report is a Windows desktop application built with VB.NET, WinForms, and .NET 10. It brings several traditional and interpretive systems together in a tabbed, person-specific report.</p>
 </section>
 <section class="work">
 <h2><a href="https://github.com/jeffmayes-jpg/DPDR-Downloads/releases/tag/v1.0.0">DPDR — Definitive Polyhedral Dice Roller</a></h2>
-<p>A program for simulating polyhedral dice rolls.</p>
+<p>A program to simulate polyhedral dice-rolling.</p>
 </section>
 <section class="work">
-<h2><a href="https://jeffmayes-jpg.github.io/MathScrabble-Downloads/">MathScrabble v1.0.0</a></h2>
-<p>A mathematical word game inspired by Scrabble, designed to teach and practice arithmetic through play.</p>
+<h2><a href="https://jeffmayes-jpg.github.io/MathScrabble-Downloads/">MathScrabble</a></h2>
+<p>A mathematical word-game inspired by Scrabble, designed to teach and practice arithmetic through play.</p>
+<div class="versions">
+<div class="version">
+<h3><a href="https://jeffmayes-jpg.github.io/MathScrabble-Downloads/v1.1.3.html">MathScrabble v1.1.3</a></h3>
+<p>Numerous updates to improve gameplay, including an option for increased board size.</p>
+</div>
+<div class="version">
+<h3><a href="https://jeffmayes-jpg.github.io/MathScrabble-Downloads/v1.1.5.html">MathScrabble v1.1.5</a></h3>
+<p>Added highlighting of tiles, with blank tiles having a pale lavender background in the rack or on the board, and tiles used while typing having a gold background. Added Save/Load capability, allowing players to interrupt long games and resume them later with the board restored.</p>
+</div>
+</div>
 </section>
-<section class="work">
-<h2><a href="https://jeffmayes-jpg.github.io/MathScrabble-Downloads/v1.1.3.html">MathScrabble v1.1.3</a></h2>
-<p>Numerous updates to improve gameplay, including an option for an increased board size.</p>
-</section>
-<section class="work">
-<h2><a href="https://jeffmayes-jpg.github.io/MathScrabble-Downloads/v1.1.5.html">MathScrabble v1.1.5</a></h2>
-<p>A newer MathScrabble release. Visit its release page for the current release details and download.</p>
-</section>
-<section class="work">
-<h2>Swift &amp; Simple <span class="status">Planned release</span></h2>
-<p>A minimalistic tabletop role-playing game (TTRPG). Publication is planned once the documentation has been recovered.</p>
+<section class="work" style="margin-top:2rem">
+<h2>Swift &amp; Simple — A minimalistic, classless TTRPG</h2>
+<p>In progress.</p>
 </section>
 </main>
 <footer>My Works</footer>
