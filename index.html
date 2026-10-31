@@ -13,6 +13,7 @@ main{max-width:920px;margin:2rem auto;padding:0 1rem 3rem}.intro{margin:0 0 1.5r
 .work h2{font-size:1.35rem;margin:0 0 .35rem}.work h2 a,.version h3 a{color:var(--accent);text-decoration:none}.work h2 a:hover,.version h3 a:hover{text-decoration:underline}
 .work p{margin:.35rem 0}.status{display:inline-block;font:600 .78rem/1.4 Arial,sans-serif;color:#4c5661;background:#edf1f5;border-radius:20px;padding:.22rem .6rem;margin-left:.4rem;vertical-align:middle}
 .versions{margin:.9rem 0 0 1.5rem;padding-left:1rem;border-left:3px solid var(--line)}.version{margin:.9rem 0}.version h3{font-size:1.08rem;margin:0 0 .2rem}.version p{margin:.25rem 0}
+.features{margin:.65rem 0 .65rem 1.25rem;padding-left:1rem}.features li{margin:.25rem 0}
 footer{text-align:center;color:var(--muted);padding:1.5rem;font-size:.95rem}a{overflow-wrap:anywhere}
 </style>
 </head>
@@ -40,6 +41,24 @@ footer{text-align:center;color:var(--muted);padding:1.5rem;font-size:.95rem}a{ov
 <section class="work">
 <h2><a href="https://jeffmayes-jpg.github.io/BirthPersonaReport">BirthPersonaReport</a></h2>
 <p>Birth Persona Report is a Windows desktop application built with VB.NET, WinForms, and .NET 10. It brings several traditional and interpretive systems together in a tabbed, person-specific report.</p>
+</section>
+<section class="work">
+<h2>Clinic CaseManager <span class="status">In progress</span></h2>
+<p>A Windows multi-user desktop application designed to manage patient records, clinic operations, and case-related billing across multiple clinics and providers.</p>
+<p>Built with VB.NET Windows Forms, Clinic CaseManager provides a centralized system for maintaining patient information, tracking cases, managing involved parties, recording body-part information, and organizing billing-related data.</p>
+<p><strong>Key Features</strong></p>
+<ul class="features">
+<li><strong>Multi-Clinic Management:</strong> Supports multiple clinics and providers, with clinic-specific access to patient and case records.</li>
+<li><strong>User Access Control:</strong> Provides Administrator, Supervisor, Staff, and Read-Only access levels.</li>
+<li><strong>Patient and Case Management:</strong> Uses sequential patient and case identifiers to maintain consistent record organization.</li>
+<li><strong>Data Security:</strong> Employs AES-256-GCM encryption and Windows DPAPI-protected encryption keys.</li>
+<li><strong>Audit Trail:</strong> Maintains encrypted, sentence-form audit records of significant activity.</li>
+<li><strong>Record Integrity:</strong> Incorporates soft deletion, save detection, and safeguards against conflicting updates.</li>
+<li><strong>Flexible Deployment:</strong> Supports operation from a shared network location or as an independent local installation.</li>
+<li><strong>Concurrent Access:</strong> Uses file locking and retry mechanisms to protect data integrity when multiple users access shared records.</li>
+</ul>
+<p>Clinic CaseManager is designed to provide a secure, organized, and flexible approach to clinic and case management, while supporting both centralized multi-user operation and smaller independent installations.</p>
+<p><em>Much more than a simple database.</em></p>
 </section>
 <section class="work">
 <h2><a href="https://github.com/jeffmayes-jpg/DPDR-Downloads/releases/tag/v1.0.0">DPDR — Definitive Polyhedral Dice Roller</a></h2>
