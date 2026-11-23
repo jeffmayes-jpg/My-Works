@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jeffmayes-jpg.github.io/My-Works/sitemap.xml
